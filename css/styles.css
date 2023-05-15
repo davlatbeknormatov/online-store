@@ -652,10 +652,6 @@ p {
     }
 
 
-    .fe-box{
-        margin: 15px;
-    }
-
 
     .section-p1{
         padding: 40px 80px;
@@ -666,9 +662,7 @@ p {
         justify-content: center;
     }
 
-    .pro{
-        margin: 15px;
-    }
+
 
     #sm-banner{
         display: flex;
@@ -734,9 +728,14 @@ p {
         line-height: 1.3;
     }
 
-    .fe-box{
-        width: 100%;
-        margin: 15px;
+    #hero{
+        padding: 0px 20px;
+        background-position: 55%;
+    }
+
+    #feature .fe-box{
+        width: 155px;
+        margin: 5px;
     }
 
     #banner h2{
@@ -759,6 +758,14 @@ p {
     #banner3 .banner-box h2{
         font-size: 16px;
         line-height: 1.2;
+    }
+
+    #product1 .pro{
+        width: 100%;
+    }
+
+    #banner{
+        height: 40vh;
     }
 
 }
