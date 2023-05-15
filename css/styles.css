@@ -702,7 +702,7 @@ p {
     #sm-banner{
         display: flex;
         flex-direction: column;
-        gap: 50px;
+        gap: 20px;
     }
 
     .banner-box{
@@ -720,8 +720,13 @@ p {
 
     #banner3{
         min-width: 100%;
-        align-items: center;
+        /* align-items: center; */
         justify-content: center;
+    }
+
+
+    .section-p1{
+        padding: 20px;
     }
 
 
